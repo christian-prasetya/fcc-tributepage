@@ -3,13 +3,14 @@
 body {
   background-color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Main page styling */
 #title {
   text-align: center;
 }
@@ -19,11 +20,14 @@ h1 {
   margin-top: 15px;
   font-size: 48px;
 }
+
+/* Image Section Styling */
  #img-div {
    margin: 8px 0;
  }
 
- #image {
-   width: 1440px;
-   height: 800px;
+ #img-caption {
+   font-style: italic;
+   font-size: 14px;
+   text-align: center;
  }
