@@ -1,1 +1,80 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}
+
+.tagline {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#img-div {
+  margin: 15px 0;
+}
+
+#image {
+  max-width: 1440px;
+  height: auto;
+}
+
+#img-caption {
+  font-size: 1.1rem;
+}
+
+#about {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#about>p {
+  line-height: 1.5;
+}
+
+#timeline {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+#timeline>ul>li {
+  list-style: none;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+#tribute-info {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+#tribute-info>p {
+  font-size: 1.5rem;
+}
+
+a {
+  color: lightcoral;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
