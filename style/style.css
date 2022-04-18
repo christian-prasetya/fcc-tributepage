@@ -32,6 +32,8 @@ p {
 #image {
   max-width: 1440px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #img-caption {
